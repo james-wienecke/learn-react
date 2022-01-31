@@ -1,9 +1,16 @@
 import './App.css';
 import Clock from './Clock.js';
+import TestForm from './TestForm.js';
 
 function App() {
   return (
-      <Clock />
+      <div>
+        <Clock />
+        <Clock />
+        <Clock />
+
+        <TestForm />
+      </div>
   );
 }
 
