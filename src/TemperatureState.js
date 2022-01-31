@@ -61,6 +61,8 @@ export default TemperatureState;
 function TempFeedback(props) {
     if (props.celsius > 100) {
         return <p>The water boils and boils!</p>
+    } else if (props.celsius < 0) {
+        return <p style={{color: 'blue'}}>It's pretty much the opposite of boiling...</p>
     } else {
         return <p>The water ain't doing much...</p>
     }
