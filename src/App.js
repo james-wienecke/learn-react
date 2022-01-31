@@ -1,6 +1,7 @@
 import './App.css';
 import Clock from './Clock.js';
 import TestForm from './TestForm.js';
+import TemperatureState from "./TemperatureState";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <Clock />
 
         <TestForm />
+
+          <TemperatureState />
       </div>
   );
 }
